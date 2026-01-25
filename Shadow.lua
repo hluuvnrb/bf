@@ -173,7 +173,7 @@ repeat
 until player.Team
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death), function() end)
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Respawn), function() end)
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/hluuvn/bloxfruit/refs/heads/main/MainHL.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/hluuvnrb/bf/refs/heads/main/MainShadow.lua"))()
 Window = Fluent:CreateWindow({
     Title = "Shadow Hub",
     SubTitle="Blox Fruit", 
